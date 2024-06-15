@@ -84,9 +84,9 @@ while True:
             if proportional_distance_12_14 > 0.23:
                 pyautogui.click()
             elif proportional_distance_mouth >= 0.335:
-                pyautogui.scroll(-28)  # Scroll down
+                pyautogui.scroll(-45)  # Scroll down
             elif proportional_distance_287_0 >= 0.335:
-                pyautogui.scroll(28)
+                pyautogui.scroll(45)
             elif proportional_distance_159_145 >= 0.34:
                 pyautogui.press('enter')
 
